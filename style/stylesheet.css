@@ -1,0 +1,570 @@
+body {
+    margin: 0px;
+
+    background-color: rgba(86, 110, 122) ; 
+}
+
+.border-img {
+    border-radius: 10px;
+    border: 3px solid rgba(171, 161, 152, 1);
+}
+
+.text-background {
+    border-radius: 10px;
+    border: 3px solid rgba(171, 161, 152, 1);
+
+    background-color: rgb(225, 225, 225);
+    
+    padding: 4px;
+}
+
+.h2-sub {
+    margin-bottom: 10px;
+    margin-top: 60px;
+    margin-left: 6.5%;
+
+    font-family: sans-serif;
+    font-size: 48px;
+}
+
+.Mleft {
+    margin-left: 6.5%;
+}
+
+/* this is the sepetator for the css |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+.top {
+    background-image: url(../reasourses/DTbanner.png);
+    background-size: cover;
+    background-position: right;
+    height: 600px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 120px;
+}
+
+.top-nav {
+    display: flex;
+
+    background-color: rgb(214, 214, 214);
+    height: 50px;
+    width: 100%;
+
+    align-items: center;
+    justify-content: right;
+}
+
+.nav-buttons {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+
+    text-decoration: none;
+
+    padding: 0px 20px 0px 30px;
+
+    color: black;
+
+    transition-duration: 0.3s;
+}
+
+.home {
+    padding-right: 54%;
+}
+
+.HTML-and-CSS {
+    padding-right: 40px;
+}
+
+.nav-buttons:hover {
+    color: rgb(159, 159, 159);
+}
+
+.intro-sub {
+    background-color:rgba(184, 235, 255, 0.603);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 6%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.p-top {
+    font-family: sans-serif;
+    font-size: 40px;
+
+    margin: 0px;
+}
+
+.p-middle {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.p-bottom {
+    font-family: sans-serif;
+    font-size: 18px;    
+    margin: 0px;   
+}
+
+.intro-hr {
+    margin: 0px;
+
+    height: 5px;
+    background-color: black;
+
+    border: 0px;
+}
+
+.infoDT {
+    margin: 80px 53px 80px 53px;
+
+    display: flex;
+
+}
+
+.infoDT-text {
+    width: 40%;
+    padding: 8px;
+    border-radius: 10px;
+
+    background-color: rgb(225, 225, 225);
+    
+    border: 3px solid rgba(171, 161, 152, 1);
+}
+
+.infoDT-text h1 {
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.infoDT-text p {
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.DT {
+    font-size: 24px;
+}
+
+.poasts {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+
+    padding-top: 30px;
+}
+
+.poasts-img {
+    height: 82px;
+    width: 92%;
+
+    border-radius: 10px;
+
+    margin: 3px 10px 3px 10px;
+
+    border: 3px solid rgba(171, 161, 152, 1);
+}
+
+.topics {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topics h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    background-color: rgb(225, 225, 225);
+    border: 3px solid rgba(171, 161, 152, 1);
+
+    padding: 5px;   
+
+    border-radius: 5px;
+
+    width: fit-content;
+}
+
+.topics img {
+    border-radius: 10px;
+    border: 3px solid rgba(171, 161, 152, 1);
+
+    background-color: rgb(225, 225, 225);
+    background-size: contain;
+}
+
+.topics p {
+    font-size: larger;
+    background-color: rgb(225, 225, 225);
+    border: 3px solid rgba(171, 161, 152, 1);   
+    padding: 10px;
+    border-radius: 10px;
+    width: 205px;
+
+    height: 150px;
+}
+
+.Python-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heuristics-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heuristics-info p {
+    width: 250px;
+}
+
+.HTML-CSS-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HTML-CSS-info p {
+    width: 335px;
+}
+
+.ToNext {
+    display: flex;
+    justify-content: right;
+
+    text-decoration: none;
+}
+
+.ToNext a {
+    font-size: 22px;
+
+    color: black;
+
+    text-shadow: 3px rgba(184, 235, 255, 0.603);
+    text-decoration: underline;
+
+    background-color: rgba(217, 217, 217, 1);
+    padding: 25px 0px 25px 20px;
+    margin-top: 40px;
+
+    height: 100%;
+
+    border-top-left-radius: 10px;
+}
+
+.ToNext img {
+    margin-top: 40px;
+    padding-top: 10px;
+    padding: 10px;
+    padding-bottom: 15px;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+
+/* this is the sepetator for the css |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+.Gintro {
+    font-size: 64px;
+    font-weight: bolder;    
+    font-family: "Open Sans", sans-serif;
+
+    text-align: center;
+}
+
+.Gsection-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Gsection-1 p {
+    width: 30%;
+    margin-left: 6%;
+    margin-right: 10%;
+    margin-top: 35px;
+
+    font-size: 22px;
+
+    height: min-content;
+
+    background-color: rgb(225, 225, 225);
+    border: 3px solid rgba(171, 161, 152, 1);   
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Gsection-1 img {
+    border-radius: 20px;
+    border: 3px solid rgba(171, 161, 152, 1);
+
+    background-color: rgb(225, 225, 225);
+    background-size: contain;
+}
+
+.Psection-2 {
+    margin-left: 6.5%;
+}
+
+.Psection-2 h2 {
+    margin-top: 70px;
+
+    font-family: sans-serif;
+    font-size: 48px;
+}
+
+.PythonBasics {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.PythonBasics p {
+    width: 220px;
+    height: 160px;
+
+    font-size: medium;
+
+    background-color: rgb(225, 225, 225);
+    border: 3px solid rgba(171, 161, 152, 1);   
+    padding: 4px;
+    margin: 0px 2% 40px 0px;
+    border-radius: 10px;
+}
+
+.PythonBasics img {
+    border-radius: 10px;
+    border: 3px solid rgba(171, 161, 152, 1);
+
+    margin-right: 37px;
+}
+
+.Psection-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.MyASS-text {
+    margin-left: 6.5%;
+    margin-right: 50%;
+    width: 500px;
+
+    font-size: 64px;
+}
+
+.P-Ass-Text {
+    margin-top: 0px;
+    margin-left: 6.5%;
+    font-size: larger;
+
+    width: 400px;
+
+    background-size: contain;
+    background-color: rgb(225, 225, 225);
+    border: 3px solid rgba(171, 161, 152, 1);   
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.P-Ass-content {
+    margin-left: 70px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.P-Ass-content hr {
+    border: 0px;
+
+    display: flex;
+
+    color: black;
+    background-color: black;
+
+    width: 80%;
+    height: 8px;
+    margin: 0px 0px 50px 60px; 
+}
+
+.PythonASS {
+    border-radius: 10px;
+
+    border: 3px solid rgba(171, 161, 152, 1);
+
+    margin-bottom: 50px;
+}
+
+.proudof {
+    border-radius: 10px;
+    border: 3px solid rgba(171, 161, 152, 1);
+
+    background-color: rgb(225, 225, 225);
+    background-size: contain;
+}
+
+
+/* this is the sepetator for the css |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+.Heuristics-intro-img {
+    margin-right: 60px;
+}
+
+.image-info {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 70%;
+
+    margin-bottom: 30px;
+}
+
+.H2-img {
+    margin-bottom: 30px;
+}
+.HSection-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.image-info p {
+    width: 20%;
+    padding: 4px 10px 20px 10px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 10px 30px 10px ;
+}
+
+.HSection-2-text {  
+    margin-left: 6.5%;
+    margin-right: 4%;
+    height: 300px;
+    width:fit-content;
+}
+
+.HSection-2-text p {
+    font-size: 26px;
+    width: 300px;
+}
+
+.HSection-3 {
+    display: flex;
+}
+
+.HSection-3-text {
+    width: 30%;
+    height: fit-content;
+    margin-top: 0px;
+
+    font-size: 22px;
+}
+
+.HSection-3 img {
+    margin-left: 18%;
+}
+
+/* this is the sepetator for the css |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.Csection-1 p {
+    margin-top: 60px;
+}
+
+.Csection-1 img {
+    margin-top: 0px;
+    margin-right: 60px;
+}
+
+.C-h2-1 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.Csection-2 {
+    display: flex;
+    align-items: center;
+    margin-left: 6.5%;
+}
+
+.Csection-2-1 {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.Csection-2-1 h3 {
+    font-size: 36px;
+
+    font-family: sans-serif;
+}
+
+.Csection-2-1 p {
+    width: 400px;
+    font-size: 20px;
+}
+
+.Csection-2-html {
+    margin-right: 250px;
+}
+
+.Csection-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 6.5%;
+}
+
+.Csection-3-1 {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.Csection-3-1 h3 {
+    font-size: 36px;
+
+    font-family: sans-serif;
+}
+
+.Csection-3-2 {
+    display: flex;
+}
+
+.Csection-3-2 p {
+    width: 50%;
+
+    margin-top: 0px;
+}
+
+.Csection-3-2 img {
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.Csection-4 {
+    width: 150px;
+    margin-left: 6.5%;
+    font-size: 22px;
+}
